@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+#d1 {
+    margin-top: 20%;
+}
+
+.btn {
+    padding: 15px;
+    margin: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 2px 8px 1px blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(218, 218, 218);
+    color: black;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 8px 1px rgb(0, 255, 191);
+    transition: 0.5s;
+}
